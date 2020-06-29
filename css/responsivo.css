@@ -1,0 +1,241 @@
+/* Para Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	/* HOME */
+	.home-bg {
+		background: url("../img/bg-home-respon.jpg") no-repeat;
+		max-height: 100%;
+	}
+
+	.imagemlateral {
+		position: absolute;
+		top: -90px;
+		left: 370px;
+		max-width: 400px;
+	
+	}
+	.imagemlateral h2 {
+		margin-top: 120px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.introducao h1 {
+		margin-top: 5px;
+		font-size: 36px;
+		text-align: left;
+		margin-left: 50px;
+
+	}
+
+	.icone.sobre {
+		padding: 70px 30px;
+	}
+
+	.header_menu ul{
+		margin-left: 5px;
+		margin-right: 80px;
+	}
+
+	.introtexto {
+		margin-left: 40px;
+	}
+
+	.introtexto h2:after {
+		margin-left: 32px;	
+	  }
+	
+	.call {
+		padding: 30px 50px;
+	}
+
+	footer {
+		margin-left: 40px;
+	}
+
+	.info-footer {
+		margin-top: 50px;
+	}
+
+	.info-footer ul {
+		margin-left: 20px;
+	}
+	.info-footer ul li {
+		font-size: 12px;
+		text-align: right;
+	}
+
+	.icone.telefone {
+		padding-right: 2px;
+	}
+
+	.info-footer:after {
+		content: "";
+		display: block;
+		width: 3px;
+		height: 130px;
+		background: white;
+		position: absolute;
+		top: 55px;
+		left: 220px;
+	}
+
+
+	.sobre {
+		margin-left: 20px;
+	}
+	
+
+	.sobre h3 {
+		margin-left: 50px;
+		padding: 10px 0px;
+		font-size: 12px;
+	}
+
+	.sobre p {
+		margin-left: 20px;
+		padding-bottom: 25px;
+		font-size: 10px;
+		color: white;
+	}
+
+	.footer_redes:after {
+		content: "";
+		display: block;
+		width: 3px;
+		height: 130px;
+		background: white;
+		position: absolute;
+		top: 55px;
+		left: 390px;
+	}
+
+	.footer_redes { 
+		margin-left: 0px;
+	}
+	
+}
+
+/* Final do Estilo - Tablets */ 
+
+/* Para Smartphone */
+@media only screen and (max-width: 787px) {
+	/* HOME */
+
+	.home-bg {
+		background-color: #574A43;
+	}
+
+	.header_menu ul li{
+		display: inline-block;
+		margin: 20px auto;
+		text-align: right;
+	}
+
+	.header_menu ul li a{
+		font-size: 14px;
+		margin: 0 auto;
+	}
+	.icone.sobre {
+		padding: 50px 35px;
+		margin-left: 20px;
+	}
+
+	.icone.abaContato {
+		margin-left: 5px;
+		margin-top: 1em;
+	}
+
+	.logo img {
+		width: 120px;
+		height: 120px;
+		margin: 20px auto;
+	}
+
+	.imagemlateral {
+		display: none;
+	}
+
+	.introducao h1 {
+		font-size: 24px;
+		line-height: 40px;
+		text-align: center;
+		margin-right: 0px;
+		color: #574A43;
+		margin-top: 0px;
+	}
+	
+	.call {
+		margin-top: 20px;
+		padding: 10px 70px;
+	}
+
+	.setadireita {
+		display: none;
+	}
+
+	.setaesquerda {
+		display: none;
+	}
+
+	.introtexto h2 {
+		font-size: 18px;
+		margin-right: 20px;
+		
+	}
+
+	.introtexto h2:after {
+		margin-left: 90px;	
+		width: 100px;
+	  }
+	
+	.introtexto p {
+		font-size: 14px;
+		padding-right: 30px;
+		margin: 0 auto;
+	}
+
+	.footer_redes:after, .info-footer::after {
+		display: none;
+	}
+
+	.btn {
+		padding: 10px 20px;
+		color: white;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+
+	.sobre {
+		display: none;
+	}
+
+	.info-footer {
+		position: absolute;
+		left: -10px;
+		bottom: -280px;
+		
+	}
+
+	.info-footer ul li {
+		font-size: 10px;
+
+	}
+
+	.footer_redes {
+		position: absolute;
+		top: 60px;
+		right: -180px;
+		top: 100px;
+	}
+
+	.footer_redes h3 {
+		font-size: 12px;
+	}
+
+	.footer_redes ul li img {
+		max-width: 20px;
+		max-height: 20px;
+		
+	}
+}

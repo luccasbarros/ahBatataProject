@@ -1,0 +1,299 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Header */
+
+.home-bg {
+    background: url("../img/bgbg-home.jpg") no-repeat;
+}
+
+.header_menu {
+    text-align: center;
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 80px;
+    text-align: right;
+}
+
+.header_menu ul li a:hover {
+    color: #574A43;
+}
+
+.header_menu ul li a {
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.icone.sobre {
+    display: inline-block;
+    background: url("../img/iconesobre.png") no-repeat left center;
+    padding: 50px 30px;
+    margin-left: 45px;
+    margin-top: 1em;
+}
+
+.icone.abaContato {
+    display: inline-block;
+    background: url("../img/iconecontato.png") no-repeat left center;
+    padding: 15px 30px;
+    margin-left: 30px;
+    margin-top: 1em;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    margin-top: 35px;
+    margin-left: 107px;
+}
+
+/* Intro */
+.introducao h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    padding: 0px;
+    margin-right: 50px;
+    color: #574A43;
+    margin-top: 80px;
+}
+
+.introtexto h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    line-height: 0.2em;
+    font-weight: normal;
+    color: #574A43;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.introtexto h2:after {
+    content: "";
+    display: block;
+    width: 205px;
+    height: 2px;
+    background: #DC981B;
+    margin-top: 15px;
+    margin-left: 65px;
+
+  }
+
+.introtexto p {
+    margin-top: 30px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #574A43;
+}
+
+
+.btn {
+    border: 2px solid #574A43;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-left: 0 auto;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: white;
+}
+
+.call {
+    padding: 40px 80px;
+}
+
+.setadireita {
+    position: relative;
+    left: 170px;
+    top: -32px;
+}
+
+.setaesquerda {
+    position: relative;
+    right: 60px;
+    top: -75px;
+}
+
+/* Side Div */
+
+.imagemlateral {
+    position: absolute;
+    top: -90px;
+    left: 490px;
+}
+
+.imagemlateral h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #574A43;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coracao {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+.info-footer {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.info-footer:after {
+    content: "";
+    width: 500px;
+    height: 190px;
+    display: block;
+    background: url("../img/separadorlinha.jpg") no-repeat center;
+    position: absolute;
+    top: -5px;
+}
+
+.info-footer ul li {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+}
+
+
+
+
+.icone.local {
+    display: inline-block;
+    background: url("../img/Vectoriconesfooter-1.svg") no-repeat left center;
+    padding: 15px 30px;
+    margin-left: 30px;
+    margin-top: 1em;
+}
+
+.icone.contato {
+    display: inline-block;
+    background: url("../img/Vectoriconesfooter.svg") no-repeat left center;
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+
+.icone.telefone {
+    display: inline-block;
+    background: url("../img/call.svg") no-repeat left center;
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+
+.sobre {
+    margin-top: 20px;
+}
+
+.sobre h3 {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.sobre p {
+    padding: 0px 30px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 15px;
+    color: white;
+
+
+}
+
+.footer_redes:after {
+    content: "";
+    width: 3px;
+    height: 190px;
+    display: block;
+    background: url("../img/separadorlinha.jpg") no-repeat center;
+    position: absolute;
+    top: -4px;
+}
+
+.footer_redes h3 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 20px 20px;
+    margin-top: 10px;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+.footer_redes ul {
+    margin-left: 10px;
+}
+
+.footer_redes ul li a {
+    display: block;
+    border: 3px solid #feae1b;
+    padding: 5px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #574A43;
+}
+
+/* Javascript Plugin */
+
+.js [data-anime] {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+}
+.js .fadeInDown {
+    transform: translate3d(0, -40px, 0);
+  }
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
