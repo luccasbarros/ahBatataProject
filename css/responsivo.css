@@ -114,30 +114,30 @@
 		margin-left: 0px;
 	}
 	
+	
 }
 
 /* Final do Estilo - Tablets */ 
 
 /* Para Smartphone */
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 768px) {
 	/* HOME */
 
 	.home-bg {
-		background-color: #574A43;
+		max-width: 100%;
 	}
 
-	.header_menu ul li{
-		display: inline-block;
-		margin: 20px auto;
-		text-align: right;
+	.header_menu ul {
+		position: absolute;
+		top: 120px;
+		left: 15px;
 	}
+
 
 	.header_menu ul li a{
 		font-size: 14px;
-		margin: 0 auto;
 	}
 	.icone.sobre {
-		padding: 50px 35px;
 		margin-left: 20px;
 	}
 
@@ -162,7 +162,7 @@
 		text-align: center;
 		margin-right: 0px;
 		color: #574A43;
-		margin-top: 0px;
+		margin-top: 90px;
 	}
 	
 	.call {
@@ -176,6 +176,10 @@
 
 	.setaesquerda {
 		display: none;
+	}
+
+	.introtexto {
+		margin-top: 80px;
 	}
 
 	.introtexto h2 {
@@ -212,8 +216,8 @@
 
 	.info-footer {
 		position: absolute;
-		left: -10px;
-		bottom: -280px;
+		left: 10px;
+		bottom: -360px;
 		
 	}
 
@@ -224,9 +228,8 @@
 
 	.footer_redes {
 		position: absolute;
-		top: 60px;
 		right: -180px;
-		top: 100px;
+		top: 190px;
 	}
 
 	.footer_redes h3 {
@@ -239,3 +242,4 @@
 		
 	}
 }
+
