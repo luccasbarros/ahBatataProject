@@ -18,8 +18,8 @@
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/responsivo.css">
         <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/responsivo.css">
 
         <!-- Adicionando SCRIPT JS -->
         <script>document.documentElement.classList.add("js");</script>
@@ -27,14 +27,14 @@
 
     <body>
         <!-- Start Header -->
-        <header class="header">
+        <header class="headerPages">
             <section>
                 <div class="container">
-                    <nav class="grid-16 header_menu">
+                    <nav class="grid-16 menuPages">
                         <ul>
                             <li class="homeIcon"><a href="index.html">Home</a></li>
                             <li class="iconeSobre"><a href="sobre.html">Sobre</a> </li>
-                            <li class="iconeContato"><a href="contato.html" class="menu_ativo">Contato</a></li>
+                            <li class="iconeContatoMenu"><a href="contato.html" class="menu_ativo">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -57,10 +57,12 @@
         <section class="container">
             <div class="form grid-12 fadeInDown" data-anime="400">
                 <h1>Nos mande uma mensagem!</h1>
-                <form action="">
+                <form action="./enviar-sendgrid.php" method="POST" class="formphp">
                     <input type="text" id="nome" name="nome" placeholder="Insira seu nome"required>
                     <input type="text" id="telefone" name="telefone" placeholder="Insira seu telefone"required>
                     <input type="email" id="email" name="email" placeholder="Insira seu e-mail"required>
+                    <input type="text" class="nao-aparece" name="leave_blank" placeholder="Se você não é um robo, deixe em branco">
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://" placeholder="Se você não é um robo, não preencha este campo.">
                     <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem aqui :)"required></textarea>
                     <button id="enviar" name="enviar" type="submit" class="btnContato">Enviar</button>
                 </form>
@@ -77,13 +79,13 @@
                 <div class="container">
                     <div class="grid-6 info-footer">
                         <ul>
-                            <li class="icone local">Lavras, MG</li>
-                            <li class="icone contato">contato@ahbatata.com</li>
-                            <li class="icone telefone">(35) 99713-9759</li>
+                            <li class="iconeLocal">Lavras, MG</li>
+                            <li class="iconeContato">contato@ahbatata.com.br</li>
+                            <li class="iconeTelefone">(35) 99713-9759</li>
                         </ul>
                     </div>
 
-                    <div class="grid-4 sobre">
+                    <div class="grid-4 sobreFooter">
                         <h3>Sobre o Ah! Batata</h3>
                         <p>O nosso delivery traz consigo a 
                             capacidade de entregar sabor junto a praticidade
@@ -91,7 +93,7 @@
                         </p>
                     </div>
 
-                    <div class="grid-6 footer_redes">
+                    <div class="grid-6 footerRedesPages">
                         <h3>Redes Sociais</h3>
                         <ul>
                             <li><a href="http://instagram.com/ahbatata" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
@@ -111,6 +113,7 @@
 
         <!-- Javascript Plugin-->
         <script src="./js/simple-anime.js"></script>
+        <script src="./js/simple-form.js"></script>
         <script src="./js/script.js"></script>
 
 

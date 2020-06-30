@@ -2,40 +2,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 /* Header */
 
-.header {
+.headerPages {
     background: url("../img/imgSobre/menubg.jpg") no-repeat center;
     height: 140px;
     max-width: 100%;
     
 }
 
-.header_menu {
+.menuPages {
     text-align: center;
 }
 
-.header_menu ul li{
+.menuPages ul li{
     display: inline-block;
     text-align: right;
     margin-left: 60px;  
 }
 
-.header_menu ul li a:hover {
+.menuPages ul li a:hover {
     color: #574A43;
 }
 
-.header_menu ul li a.menu_ativo {
+.menuPages ul li a.menu_ativo {
     color: #574A43;
 }
 
-.header_menu ul li a {
+.menuPages ul li a {
     color:white;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .iconeSobre {
@@ -45,7 +49,7 @@ body {
     margin-top: 1em;
 }
 
-.iconeContato {
+.iconeContatoMenu {
     display: inline-block;
     background: url("../img/iconecontato.png") no-repeat left center;
     padding: 15px 30px;
@@ -69,10 +73,10 @@ body {
 
 
 .introContato h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #574A43;
-    line-height: 30px;
+    line-height: 3rem;
     font-weight: bold;
     letter-spacing: 0.1em;
     text-align: center;
@@ -93,7 +97,7 @@ body {
 .introContato p {
       text-align: center;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 14px;
+      font-size: 1.4rem;
       color: #574A43;
       font-weight: normal;
 }
@@ -107,7 +111,7 @@ body {
 
 .form form input {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #574A43;
     background-color: #F1F1F3;
     -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
@@ -131,7 +135,7 @@ body {
     height: 120px;
     margin-top: 30px;
     outline: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -139,13 +143,13 @@ body {
 .form form textarea::placeholder {
     color: #C2C2C2;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .form form input::placeholder {
     color: #C2C2C2;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .form h1 {
@@ -154,7 +158,7 @@ body {
     letter-spacing: 0.1em;
     color: #574A43;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 2.6rem;
     margin-top: 100px;
     text-align: center;
     margin-left: 250px;
@@ -178,6 +182,7 @@ body {
 }
 
 .btnContato {
+    font-size: 1.4rem;
     background-color: #FEAE1B;
     border: none;
     border-radius: 5px;
@@ -237,53 +242,53 @@ body {
     margin-left: 150px;
     text-align: left;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 5px;
+    font-size: 1.4rem;
+    line-height: 0.5rem;
     color: white;
 }
 
-.icone.local {
+.iconeLocal {
     display: inline-block;
     background: url("../img/Vectoriconesfooter-1.svg") no-repeat left center;
     padding: 15px 30px;
 }
 
-.icone.contato {
+.iconeContato {
     display: inline-block;
     background: url("../img/Vectoriconesfooter.svg") no-repeat left center;
     padding: 15px 30px;
 }
 
-.icone.telefone {
+.iconeTelefone {
     display: inline-block;
     background: url("../img/call.svg") no-repeat left center;
     padding: 15px 30px;
 }
 
-.sobre h3 {
+.sobreFooter h3 {
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 20px;
+    line-height: 2rem;
     font-weight: bold;
     color: white;
     letter-spacing: 0.1em;
 }
 
-.sobre p {
+.sobreFooter p {
     margin-top: 10px;
     padding-bottom: 30px;
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 15px;
+    line-height: 1.5rem;
     color: white;
 
 
 }
 
-.sobre:after {
+.sobreFooter:after {
     content: "";
     display: block;
     width: 3px;
@@ -293,46 +298,69 @@ body {
     top: 32px;
     left: 590px;
 }
-.footer_redes h3 {
+.footerRedesPages h3 {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-top: 20px;
     margin-left: 10px;
 }
 
-.footer_redes ul li {
+.footerRedesPages ul li {
     display: inline-block;
     margin-top: 20px;
     margin-right: 7px;
 
 }
 
-.footer_redes ul {
+.footerRedesPages ul {
     margin-left: 10px;
 }
 
-.footer_redes ul li a {
+.footerRedesPages ul li a {
     display: block;
     border: 3px solid #feae1b;
     padding: 3px 5px;
 }
 
-.footer_redes ul li img {
+.footerRedesPages ul li img {
     margin-top: 2px;
 }
-.footer_redes ul li a:hover {
+.footerRedesPages ul li a:hover {
     border-color: #574A43;
 }
 
 .footerbg2 p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-top: 15px;
     margin-left: 160px;
+}
+
+.nao-aparece {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}
+
+#form-sucesso {
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+
+}
+
+#form-erro {
+    font-size: 1.4rem;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 /* Javascript Plugin */
