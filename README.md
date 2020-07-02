@@ -4,7 +4,7 @@ Website created to a new food brand.
 
 ## Screenshots :camera:
 
-<a href="https://ibb.co/6RVpvSQ"><img src="https://i.ibb.co/4Z9DsLk/teste.jpg" alt="teste" border="0"></a>
+<a href="https://ibb.co/S5fnLXW"><img src="https://i.ibb.co/GnH2hvB/Home-1.jpg" alt="Home-1" border="0"></a>
 
 ## About
 
