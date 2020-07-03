@@ -8,17 +8,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ah! Batata - Batatas Recheadas</title>
 
-        <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="stylesheet" href="css/responsivo.css ">
 
         <meta name="description" content="Compre sua batata recheda no Ah! Batata. Diversos sobres e temperos.">
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Ah! Batata - Batatas Recheadas"/>
         <meta property="og:description" content=""/>
-        <meta property="og:url" content="http://ahbatata.com"/>
+        <meta property="og:url" content="http://ahbatata.com.br"/>
         <meta property="og:image" content=""/>
         
 
@@ -27,81 +26,87 @@
         <script>document.documentElement.classList.add("js");</script>
     </head>
 
-    <body class="home-bg">
+    <body class="bg-home">
         <!-- Start Header -->
         <header class="header">
-            <div class="container">
-                <nav class="grid-10 header_menu">
+            <div class="menu-container"> 
+                <nav class="menu-nav">
                     <ul>
-                        <li class="iconeSobre"><a href="sobre.html">Sobre</a> </li>
-                        <li class="iconeAbaContato"><a href="contato.html">Contato</a></li>
+                        <li class="menu-sobre"><a href="sobre.html">Sobre</a> </li>
+                        <li class="menu-contato"><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
-                <a href="index.html" class="logo grid-6">
+
+                <a href="index.html" class="logo">
                     <img src="img/Badge 1.png" alt="Logo do Ah! Batata">
-                </a>
-                
+                </a> 
             </div>
         </header>
         <!-- END Header -->
 
         <!-- Start Intro -->
-        <section class="container">
-            <div class="introducao grid-10 fadeInDown" data-anime="400">
-                <h1>JÁ PENSOU EM <br>COMER <u>AH</u>! <br>BATATA RECHEADA?</h1>
-            </div>
-        </section> 
-
-        <!-- Start Welcome H2-->
-        <section class="bem-vindo container">
-            <div class="grid-6 introtexto fadeInDown" data-anime="600">
-                <!-- Div Call to Action-->
-                <h2>Bem vindo!</h2>
-                <p>Somos um delivery de batatas recheadas e nossa maior missão é levar uma comida temperada e quentinha para a casa dos nossos clientes.</p>
-                <div class="call" data-anime="500">
-                    <a href="sobre.html" class="btn">Saiba Mais</a>
-                    <img src="img/rewind 1seta.svg" alt="" class="setadireita">
-                    <img src="img/rewind 2seta2.svg" alt="" class="setaesquerda">
+        <main class="intro fadeInDown" data-anime="600">
+            <div class="intro-container"data-anime="400">
+                <div class="intro-texto">
+                    <h1>JÁ PENSOU EM <br>COMER <u>AH</u>! BATATA RECHEADA?</h1>
                 </div>
             </div>
-            
-            <!-- Side Div -->
-            <div class="grid-10 imagemlateral fadeInDown" data-anime="600">
-                <h2>NÓS<br>AMAMOS<br>BATATA!</h2>
-                <img src="img/iconecorecoracao.svg" class="coracao" alt="">
-                <img src="img/fotoNovaSite.png" alt=""> 
-            </div>       
+        </main> 
+
+        <!-- Start Welcome H2-->
+        <section class="welcome">
+            <div class="welcome-container">
+                <div class="lateral fadeInDown" data-anime="600">
+                    <h2 class="amamos">NÓS<br>AMAMOS<br>BATATA!</h2>
+                    <img src="img/iconecorecoracao.svg" class="coracao" alt="">
+                    <img src="img/fotocortada.png" class="imagem-lateral"alt="">
+                </div>
+                <div class="welcome-item fadeInDown" data-anime="600">
+                    <h2>Bem vindo!</h2>
+                    <p>Somos um delivery de batatas recheadas e nossa maior missão é levar uma comida temperada e quentinha para a casa dos nossos clientes.</p>
+                </div>
+                <a href="sobre.html" data-anime="500" class="home-btn">Saiba Mais</a>
+                
+            </di    v>
+                
         </section>
+            
+        
+        
             <!-- End Intro-->
 
             <!-- Footer -->
         <footer class="footerHome">
-            <div class="container">
-                <!-- Footer Contact -->
-                <div class="grid-4 info-footer">
-                    <ul>
-                        <li class="iconeLocalH">Lavras, MG</li>
-                        <li class="iconeContatoH">contato@ahbatata.com.br</li>
-                        <li class="iconeTelefoneH">(35) 99713-9759</li>
-                    </ul>
-                </div>
+            <div class="footerHome-container">
+                <div class="group">
 
-                <!-- Footer About-->
-                <div class="grid-4 sobre">
-                    <h3>Sobre o Ah! Batata</h3>
-                    <p>O nosso delivery traz consigo a 
-                        capacidade de entregar sabor junto a praticidade
-                        do nosso dia-a-dia!<br> Entre em contato com a gente!
-                    </p>
-                </div>
+                    <!-- Footer Contact -->
+                    <div class="info-footer">
+                        <ul>
+                            <li class="iconeLocalH">Lavras, MG</li>
+                            <li class="iconeContatoH">contato@ahbatata.com.br</li>
+                            <li class="iconeTelefoneH">(35) 99713-9759</li>
+                        </ul>
 
-                <!-- Footer Social Media-->
-                <div class="footer_redes">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                        <li><a href="http://instagram.com/ahbatata" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
-                        <li><a href="https://aiqfome.com/MG/lavras/ah-batata" target="_blank"><img src="img/logoaiqfome.svg" alt=""></a></li>
-                    </ul>
+                    </div>
+                    
+                    <!-- Footer About-->
+                    <div class="sobreHome-footer">
+                        <h3>Sobre o Ah! Batata</h3>
+                        <p>O nosso delivery traz consigo a 
+                            capacidade de entregar sabor junto a praticidade
+                            do nosso dia-a-dia!<br> Entre em contato com a gente!
+                        </p>
+                    </div>
+
+                    <!-- Footer Social Media-->
+                    <div class="footer-redes">
+                        <h3>Redes Sociais</h3>
+                        <ul>
+                            <li><a href="http://instagram.com/ahbatata" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
+                            <li><a href="https://aiqfome.com/MG/lavras/ah-batata" target="_blank"><img src="img/logoaiqfome.svg" alt=""></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -1,542 +1,401 @@
-/* Para Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
 
-	html {
-		font-size: 50%;
-	}
-	.home-bg {
-		background: url("/img/bgbg-home.jpg") no-repeat;
-	}
+    .welcome-container {
+        max-width: 1500px;
+    }
+    .info-footer::after {
+        display: none;
+    }
 
-	.header_menu ul li {
-		margin-top: 10px;
-		margin-left: 25px;
-	}
+    .sobreHome-footer::after {
+        display: none;
+    }
 
-	.logo {
-		margin-top: 5vh;
-	}
+    .welcome-item {
+        padding-top: 30px;
+        margin-left: 250px;
+    }
 
-	.iconeSobre, .iconeAbaContato {
-		padding: 10px 30px;
-	}
+    .welcome-item h2 {
+        font-size: 4.6rem;
+        max-width: 380px;
+    }
 
-	.imagemlateral {
-		max-width: 400px;
-		width: 100%;
-		position: absolute;
-		left: 410px;
-	}
+    .welcome p {
+        margin-top: 20px;
+        font-size: 2.4rem;
+        line-height: 4.6rem;
+        max-width: 375px;
+    }
+    .home-btn {
+        margin-left: 349px;
+    }
 
-	.imagemlateral h2 {
-		color: white;
-	}
+    .imagem-lateral {
+        position: absolute;
+        top: 930px;
+        left: 1631px;
+        max-width: 700px;
+    }
 
-	.introducao {
-		margin-top: 5vh;
-	}
+    .menu-container::after, .menu-container::before,.intro::after, .intro::before,.welcome-container::after, .welcome-container::before {
+        content: '';
+        display: table;
+        clear: both;
 
+    }
 
-	.introtexto h2 {
-		text-align: center;
-		margin-left: 0px;
-	}
+    .intro {
+        float: none;
+        padding-right: 260px;
+        padding-top: 130px;
+    }
 
-	.introtexto h2:after {
-		position: absolute;
-		left: 5px;
-	}
-	.introtexto p {
-		margin-left: 0px;
-	}
+    .intro-texto h1 {        
+        font-size: 5.6rem;
+        line-height: 10rem;
+    }
 
-	.footerHome {
-		margin-left: 10vw;
-	}
+    .amamos {
+        font-size: 4.8rem;
+        position: absolute;
+        top: 688px;
+        right: 470px;
+}
+    
 
-	.info-footer ul {
-		position: absolute;
-		left: -5vw;
-		top: 30px;
-	}
+    .coracao {
+        position: absolute;
+        right: 574px;
+        top: 860px;
+    }
 
-	.info-footer:after {
-		left: 190px;
-	}
+    .footerHome {
+        margin-top: 532px;
+        margin-bottom: 25px;
+    }
 
-	.footer_redes:after {
-		left: 390px;
-	}
+}
 
+@media only screen and (min-width: 860px) and (max-width: 980px) {
 
-	.sobre p {
-		padding-right: 10px;
-		text-align: left;
-	}
+    .welcome-container, .menu-container,.intro-container, .footerHome-container {
+        max-width: 720px;
+    }
 
-	.setadireita {
-		left: 150px;
-	}
+    .intro-texto {
+        margin-bottom: 60px;
+        margin-left: 30px;
+    }
+
+    .imagem-lateral {
+        position: absolute;
+        top: 530px;
+        left: 533px;
+        max-width: 400px;
+    }
+
+    .amamos {
+        position: absolute;
+        right: 181px;
+    }
+
+    .coracao {
+        position: absolute;
+        right: 220px;
+        top: 430px;
+    }
+    .logo {
+        right: 60px;
+    }
+
+    .intro {
+        padding: 0px;
+    }
+
+    .home-btn {
+        margin-left: 88px;
+    }
+
+    .group {
+        margin-bottom: 17px;
+    }
+
+    .info-footer::after {
+        display: none;
+    }
+
+    .sobreHome-footer::after {
+        display: none;
+
+    }
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 859px) {
+
+    .welcome-container, .menu-container,.intro-container, .footerHome-container {
+        max-width: 680px;
+    }
+
+    .menu-nav {
+        margin-left: 75px;
+    }
+
+    .intro-texto {
+        margin-bottom: 60px;
+        margin-left: 30px;
+    }
+
+    .welcome-item {
+        margin-left: 30px;
+    }
+
+    .home-btn {
+        margin-left: 115px;
+    }
+
+    .imagem-lateral {
+        position: absolute;
+        top: 530px;
+        left: 533px;
+        max-width: 400px;
+    }
+
+    .amamos {
+        position: absolute;
+        right: 71px;
+    }
+
+    .coracao {
+        position: absolute;
+        right: 112px;
+        top: 430px;
+    }
+    .logo {
+        right: -45px;
+    }
+
+    .intro {
+        padding: 0px;
+    }
+
+    .group {
+        margin-bottom: 17px;
+    }
+
+    .info-footer::after {
+        display: none;
+    }
+
+    .sobreHome-footer::after {
+        display: none;
+
+    }
+
 
 
 }
 
-/* Final do Estilo - Tablets */ 
+@media only screen and (min-width: 650px) and (max-width: 769px) {
 
-/* Para Smartphone */
+    .welcome-container, .menu-container,.intro-container, .footerHome-container {
+        max-width: 680px;
+    }
+
+    .menu-nav {
+        margin-left: 75px;
+    }
+
+    .intro-texto {
+        margin-bottom: 60px;
+        margin-left: 30px;
+    }
+
+    .welcome-item {
+        margin-left: 85px;
+    }
+
+    .home-btn {
+        margin-left: 165px;
+    }
+
+    .imagem-lateral {
+        position: absolute;
+        top: 530px;
+        left: 533px;
+        max-width: 400px;
+    }
+
+    .amamos {
+        position: absolute;
+        right: -28px;
+    }
+
+    .coracao {
+        position: absolute;
+        right: 8px;
+        top: 430px;
+    }
+    .logo {
+        right: -135px;
+    }
+
+    .intro {
+        padding: 0px;
+    }
+
+    .group {
+        margin-bottom: 17px;
+    }
+
+    .footerHome {
+        margin-left: 136px;
+    }
+    .info-footer::after {
+        display: none;
+    }
+
+    .sobreHome-footer::after {
+        display: none;
+
+    }
+
+}
+
 @media only screen and (min-width: 376px) and (max-width: 425px) {
 
-	html {
-		font-size: 40%;
-	}
-
-	.header_menu {
-		margin-top: 15vh;
-		margin-left: 8vw;
-
-	}
-
-	.header_menu ul {
-		margin-left: 92px;
-	}
-
-	.header_menu ul li {
-		margin-left: 0px;
-
-	}
-		
-
-	.introducao {
-		margin-left: 10vw;
-	}
-
-	.iconeSobre, .iconeAbaContato {
-		padding: 10px 30px;
-	}
-
-	.bem-vindo {
-		margin-left: 13vw;
-	}
-
-	.call {
-		margin-left: 20vw;
-	}
-
-	.logo img {
-		width: 120px;
-		position: absolute;
-		top: 30px;
-		left: 155px;
-		
-	}
-
-	.imagemlateral {
-		display: none;
-	}
-
-	.home-bg {
-		width: 0;
-	}
-
-	.introducao h1 {
-		text-align: left;
-		margin-left: 89px;
-		font-size: 20px;
-		line-height: 25px;
-		margin-right: 40px;
-	}
-
-
-	.introtexto h2:after {
-		position: absolute;
-		left: -16px;
-	}
-
-	.introtexto p {
-		margin-right: 20px;
-	}
-
-	.setadireita {
-		left: 135px;
-	}
-
-	.footerHome {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		
-	}
-
-	.info-footer {
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-bottom: 10vh;
-	}
-
-	.info-footer:after {
-		display: none;
-	}
-
-	.info-footer ul {
-		position: absolute;
-		left: 31vw;
-		top: 8vh;;
-	}
-
-	.info-footer ul li {
-		margin-top: 0px;
-		padding-left: 40px;
-		margin-bottom: 10px;
-	}
-
-	.iconeContatoH {
-		display: list-item;
-	}
-
-	.sobre {
-		display: none;
-	}
-
-	.footer_redes h3 {
-		padding: 0px;
-		display: none;
-	}
-
-	.footer_redes {
-		position: absolute;
-		top: -14vh;
-		left: 30vw;
-	}
-
-
-
-	.footer_redes ul {
-		margin-left: 10px;
-	}
-
-	.footer_redes ul li {
-		margin-left: 10px;
-	}
-
-	.footer_redes ul li a {
-		display: block;
-		border: 3px solid #dc981b;
-		padding: 6px;
-	}
-
-	.footer_redes ul li img {
-		width: 20px;
-	}
-
-	.footer_redes:after {
-		display: none;
-		
-	}
-	
-	
-}
-
-@media only screen and (min-width: 321px) and (max-width: 375px) {
-
-	html {
-		font-size: 40%;
-	}
-
-	.header_menu {
-		margin-top: 15vh;
-		margin-left: 3vw;
-
-	}
-
-	.header_menu ul {
-		margin-left: 92px;
-	}
-
-	.header_menu ul li {
-		margin-left: 0px;
-
-	}
-		
-
-	.introducao {
-		margin-left: 6vw;
-	}
-
-	.iconeSobre, .iconeAbaContato {
-		padding: 10px 30px;
-	}
-
-	.bem-vindo {
-		margin-left: 13vw;
-	}
-
-	.call {
-		margin-left: 20vw;
-	}
-
-	.logo img {
-		width: 120px;
-		position: absolute;
-		top: 30px;
-		left: 129px;
-		
-	}
-
-	.imagemlateral {
-		display: none;
-	}
-
-	.home-bg {
-		width: 0;
-	}
-
-	.introducao h1 {
-		text-align: left;
-		margin-left: 89px;
-		font-size: 20px;
-		line-height: 25px;
-		margin-right: 40px;
-	}
-
-	.introtexto h2 {
-		margin-right: 5vw;
-	}
-
-	.introtexto h2:after {
-		position: absolute;
-		left: -28px;
-	}
-
-	.introtexto p {
-		margin-right: 20px;
-	}
-
-	.setadireita {
-		left: 135px;
-	}
-
-	.footerHome {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		
-	}
-
-	.info-footer {
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-bottom: 10vh;
-	}
-
-	.info-footer:after {
-		display: none;
-	}
-
-	.info-footer ul {
-		position: absolute;
-		left: 31vw;
-		top: 8vh;;
-	}
-
-	.info-footer ul li {
-		margin-top: 0px;
-		padding-left: 40px;
-		margin-bottom: 10px;
-	}
-
-	.iconeContatoH {
-		display: list-item;
-	}
-
-	.sobre {
-		display: none;
-	}
-
-	.footer_redes h3 {
-		padding: 0px;
-		display: none;
-	}
-
-	.footer_redes {
-		position: absolute;
-		top: -14vh;
-		left: 30vw;
-	}
-
-
-
-	.footer_redes ul {
-		margin-left: 10px;
-	}
-
-	.footer_redes ul li {
-		margin-left: 10px;
-	}
-
-	.footer_redes ul li a {
-		display: block;
-		border: 3px solid #dc981b;
-		padding: 6px;
-	}
-
-	.footer_redes ul li img {
-		width: 20px;
-	}
-
-	.footer_redes:after {
-		display: none;
-		
-	}
+    .welcome-container, .menu-container,.intro-container, .footerHome-container {
+        max-width: 300px;
+    }
+
+    .menu-nav ul li {
+        margin-left: 0px;
+    }
+
+    .menu-nav ul {
+        margin-top: 150px;
+        display: inline-flex;
+    }
+
+    .intro-texto {
+        width: 200px;
+        margin-left: 118px;
+    }
+
+    .intro-texto h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .welcome-item {
+        margin-left: -27px;
+        padding-top: 110px;
+    }
+
+    .home-btn {
+        margin-left: 50px;
+    }
+
+
+    .logo {
+        right: 73px;
+    }
+
+    .intro {
+        padding: 0px;
+    }
+
+    .group {
+        margin-bottom: 17px;
+    }
+
+    .footerHome {
+        margin-top: 83px;
+    }
+
+    .imagem-lateral, .info-footer::after, .sobreHome-footer::after, .amamos, .coracao {
+        display: none;
+    }
+
+    .info-footer {
+        display: none;
+    }
+
+    .sobreHome-footer {
+        margin-top: 0px;
+        margin-left: 0px;
+        float: left;
+    }
+    
 
 }
 
-@media only screen and (max-width: 320px) {
-	html {
-		font-size: 40%;
-	}
+@media only screen and (max-width: 375px) {
 
-	.header_menu {
-		margin-top: 15vh;
+    .welcome-container, .menu-container,.intro-container, .footerHome-container {
+        max-width: 300px;
+    }
 
-	}
+    .menu-nav {
+        padding: 13px;
+        margin-top: 30px;
+    }
 
-	.header_menu ul {
-		margin-left: 92px;
-	}
+    .menu-nav ul {
+        margin-top: 150px;
+        display: inline-flex;
+    }
 
-	.header_menu ul li {
-		margin-left: 0px;
+    .intro-texto {
+        width: 200px;
+        margin-left: 92px;
+    }
 
-	}
-		
+    .intro-texto h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
 
-	.introducao {
-		margin-left: 2vw;
-	}
+    .welcome-item {
+        margin-left: -27px;
+        padding-top: 110px;
+    }
 
-	.iconeSobre, .iconeAbaContato {
-		padding: 10px 30px;
-	}
-
-	.bem-vindo {
-		margin-left: 13vw;
-	}
-
-	.call {
-		margin-left: 20vw;
-	}
-
-	.logo img {
-		width: 120px;
-		position: absolute;
-		top: 30px;
-		left: 110px;
-		
-	}
-
-	.imagemlateral {
-		display: none;
-	}
-
-	.home-bg {
-		width: 0;
-	}
-
-	.introducao h1 {
-		text-align: left;
-		margin-left: 89px;
-		font-size: 20px;
-		line-height: 25px;
-		margin-right: 40px;
-	}
-
-	.introtexto h2 {
-		margin-right: 12vw;
-	}
-
-	.introtexto h2:after {
-		position: absolute;
-		left: -39px;
-	}
-
-	.introtexto p {
-		margin-right: 45px;
-	}
-
-	.setadireita {
-		left: 135px;
-	}
-
-	.footerHome {
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-left: 0px;
-		
-	}
-
-	.info-footer {
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-bottom: 10vh;
-	}
-
-	.info-footer:after {
-		display: none;
-	}
-
-	.info-footer ul {
-		position: absolute;
-		left: 31vw;
-		top: 8vh;;
-	}
-
-	.info-footer ul li {
-		margin-top: 0px;
-		padding-left: 40px;
-		margin-bottom: 10px;
-	}
-
-	.iconeContatoH {
-		display: list-item;
-	}
-
-	.sobre {
-		display: none;
-	}
-
-	.footer_redes h3 {
-		padding: 0px;
-		display: none;
-	}
-
-	.footer_redes {
-		position: absolute;
-		top: -14vh;
-		left: 30vw;
-	}
+    .home-btn {
+        margin-left: 50px;
+    }
 
 
+    .logo {
+        right: 53px;
+    }
 
-	.footer_redes ul {
-		margin-left: 10px;
-	}
+    .intro {
+        padding: 0px;
+    }
 
-	.footer_redes ul li {
-		margin-left: 10px;
-	}
+    .group {
+        margin-bottom: 17px;
+    }
 
-	.footer_redes ul li a {
-		display: block;
-		border: 3px solid #dc981b;
-		padding: 6px;
-	}
+    .footerHome {
+        margin-top: 83px;
+    }
 
-	.footer_redes ul li img {
-		width: 20px;
-	}
+    .imagem-lateral, .info-footer::after, .sobreHome-footer::after, .amamos, .coracao {
+        display: none;
+    }
 
-	.footer_redes:after {
-		display: none;
-		
-	}
+    .info-footer {
+        display: none;
+    }
+
+    .sobreHome-footer {
+        margin-top: 0px;
+        margin-left: 0px;
+        float: left;
+    }
+
+
 }
