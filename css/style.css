@@ -253,7 +253,7 @@ img {
 }
 
 .menuPages ul li {
-    margin-right: 10px;
+    margin-left: 20px;
 }
 
 .menuPages ul li a {
@@ -266,6 +266,10 @@ img {
     letter-spacing: 0.2em;
     font-size: 0.7778em;
 
+}
+
+.menuPages ul li a:hover {
+    color: #574A43;
 }
 
 .homeIcon  {
@@ -480,6 +484,11 @@ img {
     text-align: center;
 
 }
+.botao {
+    justify-content: left;
+    margin: 20px 300px;
+
+}
 
 .btn {
     background-color: #feae1b;
@@ -492,9 +501,6 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
-    position: absolute;
-    bottom: -1280px;
-    left: 315px;
     transition: all 400ms ease;
     -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
@@ -620,6 +626,168 @@ img {
     
 }
 
+/* Contato */
+
+.introContato {
+    margin: 0 auto;
+}
+
+.introContato h1 {
+    font-size: 2.6667em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #574A43;
+    line-height: 1.6667em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+
+.introContato h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #574A43;
+    margin: 10px auto;
+}
+
+.introContato p {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7778em;
+    color: #574A43;
+    font-weight: normal;
+}
+
+/* Form */
+
+.form form{
+    margin-left: 320px;
+    padding-right: 300px;
+    flex-wrap: wrap;
+}
+
+.form form input {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7778em;
+    color: #574A43;
+    background-color: #F1F1F3;
+    -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    border: none;
+    width: 300px;
+    height: 35px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.form form textarea {
+
+    background-color: #F1F1F3;
+    -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    border: none;
+    width: 300px;
+    height: 120px;
+    margin-top: 30px;
+    outline: none;
+    font-size: 0.7778em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.form form textarea::placeholder {
+    color: #C2C2C2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7778em;
+}
+
+.form form input::placeholder {
+    color: #C2C2C2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7778em;
+}
+
+.form h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #574A43;
+    text-transform: uppercase;
+    font-size: 1.4444em;
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+}
+
+@keyframes bounce {
+    0%, 20%, 68%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.btnContato {
+    font-size: 1.4rem;
+    background-color: #FEAE1B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    margin-left: 65px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.btnContato:hover {
+    animation: bounce 1s;
+    background-color: #DC981B;
+}
+
+.nao-aparece {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}
+
+#form-sucesso {
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: green;
+
+}
+
+#form-erro {
+    font-size: 1.4rem;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
 
 /* Medias */
 
@@ -636,6 +804,10 @@ img {
 
 @media (max-width: 768px) {
 
+    .container {
+        max-width: 680px;
+    }
+
     .info-footer {
         margin-left: 95px;
     }
@@ -643,6 +815,61 @@ img {
     .lateral h2 {
         margin-left: 110px;
         display: flex;
+    }
+
+    /* Sobre */
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .historia p, .homemade p {
+        width: 300px;
+    }
+
+    .historia img, .homemade img {
+        display: none;
+    }
+
+    .tempero p, .comunicacao p, .praticidade p {
+        font-size: 0.6667em;
+    }
+
+    .tempero h3, .comunicacao h3, .praticidade h3 {
+        font-size: 1em;
+    }
+    
+    .imgLateral img {
+        display: none;
+    }
+
+
+    .avaliacoesIntro img {
+        right: 258px;
+        bottom: -780px;
+    }
+
+    .botao {
+        width: 450px;
+        margin: 20px auto;
+    }
+
+    /* Contato */
+
+    .form form{
+        margin: 0 180px;
+        flex-wrap: wrap;
+    }
+
+    .form h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #574A43;
+        text-transform: uppercase;
+        font-size: 1.4444em;
+        text-align: center;
+        margin: 60px 260px 20px 0px;
     }
 }
 
@@ -695,6 +922,98 @@ img {
     }
     .sobreHome-footer {
         display: none;
+    }
+
+    /* Sobre */
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+
+    .menuPages ul li {
+        font-size: 0.7778em;
+        margin: 0 2px;
+    }
+
+    .introSobre {
+        margin: 0 auto;
+    }
+    .introSobre h1 {
+        justify-content: center;
+    }
+
+    .introSobre p {
+        justify-content: center;
+        font-size: 0.6667em;
+    }
+    .historia {
+        margin-bottom: 30px;
+    }
+
+    .tempero p, .comunicacao p, .praticidade p {
+        font-size: 0.8889em;
+    }
+
+    .avaliacoesIntro img {
+        display: none;
+    }
+
+    .pAvaliacao {
+        width: 300px;
+    }
+
+    .pInfosAvaliacao {
+        display: none;
+    }
+
+    .cincoEstrelas p {
+        width: 200px;
+    }
+
+    .tempero, .comunicacao, .praticidade {
+        margin: 20px auto;
+    }
+
+    .contato h1 {
+        width: 300px;
+        font-size: 1.3333em;
+    }
+
+    .botao {
+        width: 150px;
+        margin: 30px auto;
+    }
+    
+    .cincoEstrelas img {
+        display: flex;
+        padding: 60px 0px 60px 110px;
+    }
+
+    .tempero img, .comunicacao img, .praticidade img {
+        display: none;
+    }
+
+    .info-footer-sobre ul {
+        padding-left: 15px;
+    }
+    
+    /* Contato */
+
+    .form form{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .form h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: #574A43;
+        text-transform: uppercase;
+        font-size: 1.4444em;
+        text-align: center;
+        margin: 40px auto;
     }
 
 }

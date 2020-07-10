@@ -14,12 +14,11 @@
         <meta property="og:description" content=""/>
         <meta property="og:url" content="http://ahbatata.com/contato"/>
         <meta property="og:image" content=""/>
+
+        <link rel="shortcut icon" href="/Badge-1.ico">
         
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/contato.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- Adicionando SCRIPT JS -->
         <script>document.documentElement.classList.add("js");</script>
@@ -28,25 +27,23 @@
     <body>
         <!-- Start Header -->
         <header class="headerPages">
-            <section>
-                <div class="container">
-                    <nav class="grid-16 menuPages">
-                        <ul>
-                            <li class="homeIcon"><a href="index.html">Home</a></li>
-                            <li class="iconeSobre"><a href="sobre.html">Sobre</a> </li>
-                            <li class="iconeContatoMenu"><a href="contato.html" class="menu_ativo">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-        </header>
+            <div class="container">
+                <nav class="menuPages">
+                    <ul>
+                        <li class="homeIcon"><a href="index.html">Home</a></li>
+                        <li class="iconeSobre"><a href="sobre.html" class="menu_ativo">Sobre</a> </li>
+                        <li class="iconeContatoMenu"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
         <!-- END Header -->
 
 
         <!-- Start BG-Intro -->
         <section>
-            <div class="introContato">
-                <div class="container fadeInDown" data-anime="400">
+            <div class="container">
+                <div class="introContato fadeInDown" data-anime="400">
                     <h1>Contato</h1>
                     <p>Entre em contato conosco</p>
                 </div>
@@ -54,18 +51,20 @@
         </section>
 
 
-        <section class="container">
-            <div class="form grid-12 fadeInDown" data-anime="400">
-                <h1>Nos mande uma mensagem!</h1>
-                <form action="./enviar-sendgrid.php" method="POST" class="formphp">
-                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome"required>
-                    <input type="text" id="telefone" name="telefone" placeholder="Insira seu telefone"required>
-                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail"required>
-                    <input type="text" class="nao-aparece" name="leave_blank" placeholder="Se você não é um robo, deixe em branco">
-                    <input type="text" class="nao-aparece" name="dontchange" value="http://" placeholder="Se você não é um robo, não preencha este campo.">
-                    <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem aqui :)"required></textarea>
-                    <button id="enviar" name="enviar" type="submit" class="btnContato">Enviar</button>
-                </form>
+        <section>
+            <div class="container">
+                <div class="form fadeInDown" data-anime="400">
+                    <h1>Nos mande uma mensagem!</h1>
+                    <form action="./enviar-sendgrid.php" method="POST" class="formphp">
+                        <input type="text" id="nome" name="nome" placeholder="Insira seu nome"required>
+                        <input type="text" id="telefone" name="telefone" placeholder="Insira seu telefone"required>
+                        <input type="email" id="email" name="email" placeholder="Insira seu e-mail"required>
+                        <input type="text" class="nao-aparece" name="leave_blank" placeholder="Se você não é um robo, deixe em branco">
+                        <input type="text" class="nao-aparece" name="dontchange" value="http://" placeholder="Se você não é um robo, não preencha este campo.">
+                        <textarea name="mensagem" id="mensagem" placeholder="Insira sua mensagem aqui :)"required></textarea>
+                        <button id="enviar" name="enviar" type="submit" class="btnContato">Enviar</button>
+                    </form>
+                </div>
             </div>
 
         </section>
@@ -73,11 +72,11 @@
          
         
 
-            <!-- Footer -->
+             <!-- Footer -->
         <footer>
             <div class="footerbg1">
-                <div class="container">
-                    <div class="grid-6 info-footer">
+                <div class="footer-item container">
+                    <div class="info-footer-sobre">
                         <ul>
                             <li class="iconeLocal">Lavras, MG</li>
                             <li class="iconeContato">contato@ahbatata.com.br</li>
@@ -85,7 +84,7 @@
                         </ul>
                     </div>
 
-                    <div class="grid-4 sobreFooter">
+                    <div class="sobreFooter">
                         <h3>Sobre o Ah! Batata</h3>
                         <p>O nosso delivery traz consigo a 
                             capacidade de entregar sabor junto a praticidade
@@ -93,7 +92,7 @@
                         </p>
                     </div>
 
-                    <div class="grid-6 footerRedesPages">
+                    <div class="footerRedesPages">
                         <h3>Redes Sociais</h3>
                         <ul>
                             <li><a href="http://instagram.com/ahbatata" target="_blank"><img src="img/instagram.svg" alt=""></a></li>
@@ -106,7 +105,7 @@
             <!-- Direitos -->
             <div class="footerbg2">
                 <div class="container">
-                    <p class="grid-10">Ah! Batata, todos os direitos reservados. 2020</p>
+                    <p class="">Ah! Batata, todos os direitos reservados. 2020</p>
                 </div>
             </div>
         </footer>
