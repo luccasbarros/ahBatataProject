@@ -57,6 +57,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.778em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu-nav a:hover {
@@ -88,8 +89,6 @@ img {
 }
 
 
-
-
 /* Lateral */
 
 .lateral {
@@ -119,6 +118,8 @@ img {
     top: 180px;
     display: flex;
 }
+
+/* Welcome */
 
 .welcome-item {
     margin-right: 60px;
@@ -233,6 +234,394 @@ img {
     border-color: #574A43;
 }
 
+/* Sobre */
+
+.headerPages {
+    background: url("/img/imgSobre/menubg.jpg") no-repeat center;
+    height: 140px;
+}
+
+.menuPages {
+    margin: 0 auto;
+
+}
+
+.menuPages ul {
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.menuPages ul li {
+    margin-right: 10px;
+}
+
+.menuPages ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 0.7778em;
+
+}
+
+.homeIcon  {
+    background: url("/img/imgSobre/home.svg") no-repeat left;
+    padding: 10px;
+}
+
+.iconeSobre {
+    background: url("/img/iconesobre.png") no-repeat left;
+    padding: 10px;
+}
+
+.iconeContatoMenu {
+    background: url("/img/iconecontato.png") no-repeat left;
+    padding: 10px;
+}
+
+/* Subtitle */
+
+.introSobre {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.introSobre h1 {
+    text-align: center;
+    color: #574A43;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.introSobre h1:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #574A43;
+    margin: 10px auto;
+}
+
+.introSobre p {
+    color: #574A43;
+    font-size: 0.778em;
+    margin: 10px auto;
+}
+
+/* História */
+
+.sobreIntro {
+    padding: 60px 0;
+}
+
+.historia {
+    margin-right: 90px;
+}
+
+.historia h1, .homemade h1 {
+    font-size: 2em;
+    color: #574A43;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+
+.historia img {
+    position: absolute;
+    top: 400px;
+    left: 370px;
+}
+
+.historia p, .homemade p {
+    font-size: 1em;
+    line-height: 1.3889em;
+    width: 450px;
+    color: #574A43;
+}
+
+.homemade img {
+    position: absolute;
+    top: 400px;
+    right: 340px;
+}
+
+/* Características */
+.caracteristicas {
+    padding-bottom: 60px;
+}
+.tempero, .comunicacao, .praticidade {
+    margin: 0 30px;
+    border-top: 50px solid #DC981B;
+    background-color: white;
+    width: 280px;
+    height: 230px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+}
+
+.tempero img {
+    position: absolute;
+    top: 729px;
+    left: 339px;
+    
+}
+
+.comunicacao img {
+    position: absolute;
+    top: 729px;
+    left: 659px;
+}
+
+.praticidade img {
+    position: absolute;
+    top: 729px;
+    left: 979px;
+}
+
+.tempero h3, .comunicacao h3, .praticidade h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3333em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #574A43;
+    font-weight: bold;
+}
+
+.tempero p, .comunicacao p, .praticidade p {
+    font-size: 0.8889em;
+    line-height: 1.3889em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #574A43;
+    padding: 10px 20px;
+}
+
+.avaliacoesIntro {
+    flex-direction: column;
+}
+.avaliacoesIntro h1 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #574A43;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.pAvaliacao{
+    width: 450px;
+    font-size: 1em;
+    line-height: 1.3889em;
+    color: #574A43;
+    padding-bottom: 45px;
+}
+
+.pInfosAvaliacao {
+    color: #574A43;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.avaliacoesIntro img {
+    position: absolute;
+    right: 530px;
+    bottom: -645px;
+}
+
+/* 5 estrelas */
+
+.estrelasSection {
+    padding-top: 50px;
+}
+
+.cincoEstrelas h1 {
+    color: #574A43;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
+.cincoEstrelas p {
+    width: 420px;
+    font-size: 1em;
+    color: #574A43;
+    line-height: 1.3889em;
+    margin-top: 30px;
+}
+
+.cincoEstrelas img {
+    display: flex;
+    padding: 60px 0px 60px 160px;
+}
+
+.imgLateral img {
+    position: absolute;
+    top: 1330px;
+    right: 0px;
+    width: 550px;
+}
+
+/* Contato */
+
+.contato h1 {
+    color: #574A43;
+    text-transform: uppercase;
+    font-size: 2em;
+    width: 395px;
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #feae1b;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    position: absolute;
+    bottom: -1280px;
+    left: 315px;
+    transition: all 400ms ease;
+    -webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    background: rgba(255,255, 255, 0.2);
+    border-radius: 10px;
+    transition: all 2s ease;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 45px;
+}
+
+.btn:hover:before {
+    width: 100%;
+}
+
+/* Footer */
+
+.footerbg1 {
+    background-color:#DC981B;
+    margin-top: 190px;
+}
+
+.footer-item {
+    justify-content: center;
+}
+
+/* Info Footer */
+
+.info-footer-sobre ul {
+    padding: 10px 0;
+    list-style: none;
+    color: white;
+    font-size: 0.7778em;
+}
+
+.iconeLocal {
+    background: url("../img/Vectoriconesfooter-1.svg") no-repeat left;
+    padding: 10px 25px;
+}
+
+.iconeContato {
+    background: url("../img/Vectoriconesfooter.svg") no-repeat left;
+    padding: 10px 30px;
+}
+
+.iconeTelefone {
+    background: url("../img/call.svg") no-repeat left;
+    padding: 10px 30px;
+}
+
+/* Sobre Footer */
+
+.sobreFooter {
+    padding: 20px;
+}
+
+.sobreFooter h3 {
+    font-size: 0.7778em;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.sobreFooter p {
+    padding-top: 10px;
+    color: white;
+    font-size: 0.7778em;
+    width: 250px;
+}
+
+/* Redes Footer */
+
+.footerRedesPages {
+    padding: 20px;
+}
+
+.footerRedesPages h3 {
+    font-size: 0.7778em;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.footerRedesPages ul {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.footerRedesPages ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.footerRedesPages ul li a img {
+    border: 3px solid #FEAE1B;
+    padding: 5px;
+}
+
+.footerRedesPages ul li a img:hover {
+    border-color: #574A43;
+}
+
+/* Footer 2 */
+
+.footerbg2 {
+    background-color: #574A43;
+    height: 30px;
+
+    
+}
+
+.footerbg2 p {
+    color: white;
+    font-size: 0.6667em;
+    padding-top: 5px;
+    margin: 0 auto;
+    
+}
+
+
+/* Medias */
 
 @media  (min-width: 1410px) and (max-width: 1460px) {
     .info-footer {
@@ -246,6 +635,7 @@ img {
 }
 
 @media (max-width: 768px) {
+
     .info-footer {
         margin-left: 95px;
     }
